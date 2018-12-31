@@ -22,3 +22,4 @@ def find_the_cheese(ingredient)
   ingredient.each do |this|
     this == "cheddar" || this = "gouda" || this = "camembert"
 end
+end
