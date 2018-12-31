@@ -18,7 +18,6 @@ def long_planeteer_calls(callz)
 end
 
 def find_the_cheese(ingredient)
-  cheese_types = ["cheddar", "gouda", "camembert"]
   ingredient.find do |cheese|
     cheese == "cheddar" || cheese == "gouda" || cheese = "camembert"
 end
